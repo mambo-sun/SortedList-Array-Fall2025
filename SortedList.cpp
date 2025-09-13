@@ -67,7 +67,7 @@ void SortedList<T>::DeleteItem(T item) {
             }
             --length;
             // Function will delete first instance only
-            // so return and bail out.
+            // so return and bail out
             return;
         }
     }
