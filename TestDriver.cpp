@@ -21,6 +21,10 @@ int main()
 	int number;
 	int item;
 	SortedList<int> list;
+	list.PutItem(5);
+	list.PutItem(1);
+	list.PutItem(10);
+	list.PutItem(3);
 
 	bool found;
 
